@@ -21,7 +21,7 @@ const ImageGenerator = () => { //a function to get details from openAl api and g
                 headers: {
                     "Content-Type": "application/json",
                     Authorization:
-                    "Bearer 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",
+                    "Bearer OPENAI_API_KEY",
                     "User-Agent": "Chrome",
                 },
                 body: JSON.stringify({
